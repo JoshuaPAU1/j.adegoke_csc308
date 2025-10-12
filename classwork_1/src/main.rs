@@ -18,8 +18,8 @@ fn main() {
     let temp1:f64 = temp1.trim().parse().expect("Input");
 
     let fh:f64 = ((9.0/5.0) * temp1) + 32.0 ;
-    println!("Your temperature in Fahrenheit is: {}F", fh);
+    println!("Your temperature in Fahrenheit is: {:.2}F", fh);
 
     let cels:f64 = (temp2 - 32.0) * 5.0/9.0 ; 
-    println!("Your temperature in Celsius is: {}C", cels);
+    println!("Your temperature in Celsius is: {:.2}C", cels);
     
