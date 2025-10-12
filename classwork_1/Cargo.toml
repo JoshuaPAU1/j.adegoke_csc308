@@ -1,0 +1,10 @@
+[package]
+<<<<<<< HEAD
+name = "classwork_1"
+=======
+name = "classwork_2"
+>>>>>>> 0c7ed916ab717ca3e9de01e792ab2de60e8ca92d
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
